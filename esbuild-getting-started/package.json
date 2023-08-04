@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "esbuild app.jsx --bundle --outfile=out.js",
+    "build-from-script": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "esbuild": "0.18.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
