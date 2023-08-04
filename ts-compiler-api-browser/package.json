@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "esbuild index.ts --bundle --outfile=dist/bundle.js"
+  },
   "dependencies": {
     "typescript": "^5.1.6"
   },
