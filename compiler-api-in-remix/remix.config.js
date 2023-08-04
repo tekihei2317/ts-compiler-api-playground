@@ -10,6 +10,13 @@ export default {
   serverMinify: true,
   serverModuleFormat: "esm",
   serverPlatform: "neutral",
+  serverNodeBuiltinsPolyfill: {
+    modules: {
+      inspector: "empty",
+      path: "empty",
+      os: "empty",
+    },
+  },
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // publicPath: "/build/",
